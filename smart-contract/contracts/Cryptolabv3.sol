@@ -8,7 +8,7 @@ import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 import 'operator-filter-registry/src/DefaultOperatorFilterer.sol';
 
-contract YourNftToken is ERC721AQueryable, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
+contract Cryptolabv3 is ERC721AQueryable, Ownable, ReentrancyGuard, DefaultOperatorFilterer {
 
   using Strings for uint256;
 
