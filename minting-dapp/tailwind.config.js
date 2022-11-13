@@ -11,8 +11,8 @@ module.exports = {
       colors: {
         // General
         page: {
-          from_bg: colors.slate[100],
-          to_bg: colors.slate[200],
+          from_bg: colors.slate[800],
+          to_bg: colors.slate[500],
         },
         titles: colors.indigo[600],
         links: {
@@ -21,8 +21,8 @@ module.exports = {
         },
         loading_spinner: colors.indigo[500],
         popups: {
-          bg: colors.white,
-          txt: colors.slate[800],
+          bg: colors.slate[800],
+          txt: colors.slate[300],
           internal_border: colors.slate[200],
         },
         warning: {
